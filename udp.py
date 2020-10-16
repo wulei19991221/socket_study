@@ -13,7 +13,7 @@ def send():
 
 
 def receive():
-    result = s.recvfrom(1024)
+    result = s.recvfrom(1024*10)
     print(result[0].decode('utf-8'))
 
 
